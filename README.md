@@ -1,3 +1,3 @@
-<h1>Introduction to the Regular Expression Challenges
+<h1>The Regular Expression Challenges
  from FreeCodeCamp </h1>
 <p>---------------------------------------------------------------------</p>
