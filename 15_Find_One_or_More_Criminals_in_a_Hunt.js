@@ -18,7 +18,14 @@ let matchedCriminals = crowd.match(reCriminals);
 console.log(matchedCriminals);
 
 // return 
-// [ 'CCC',
-//   index: 12,
-//   input: 'P1P2P3P4P5P6CCCP7P8P9',
-//   groups: undefined ]
+// [ 'CCC']
+
+
+// Your regex should match one criminal ("C") in "C"
+// Your regex should match two criminals ("CC") in "CC"
+// Your regex should match three criminals ("CCC") in "P1P5P4CCCP2P6P3"
+// Your regex should match five criminals ("CCCCC") in "P6P2P7P4P5CCCCCP3P1"
+// Your regex should not match any criminals in ""
+// Your regex should not match any criminals in "P1P2P3"
+// Your regex should match fifty criminals ("CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC") in "P2P1P5P4CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCP3".
+

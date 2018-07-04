@@ -20,3 +20,10 @@ let userCheck = /^[a-z]{2,}\d*$/i; // Change this line
 let result = userCheck.test(username);
 
 //return true;
+
+// Your regex should match JACK
+// Your regex should not match J
+// Your regex should match Oceans11
+// Your regex should match RegexGuru
+// Your regex should not match 007
+// Your regex should not match 9

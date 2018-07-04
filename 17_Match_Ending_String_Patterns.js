@@ -7,3 +7,5 @@ let result = lastRegex.test(caboose);
 
 // return true;
 
+// let result = caboose.match(lastRegex);
+// [ 'caboose']

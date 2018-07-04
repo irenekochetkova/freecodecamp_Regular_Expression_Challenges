@@ -14,3 +14,11 @@
 let timStr = "Timmmmber";
 let timRegex = /Tim{4}ber/; // Change this line
 let result = timRegex.test(timStr);
+
+
+// Your regex should use curly brackets.
+// Your regex should not match "Timber"
+// Your regex should not match "Timmber"
+// Your regex should not match "Timmmber"
+// Your regex should match "Timmmmber"
+// Your regex should not match "Timber" with 30 m\'s in it.

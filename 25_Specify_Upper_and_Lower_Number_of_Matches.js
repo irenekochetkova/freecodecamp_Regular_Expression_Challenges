@@ -13,5 +13,13 @@ let ohStr = "Ohhh no";
 let ohRegex = /Oh{3,6} no/; // Change this line
 let result = ohRegex.test(ohStr);
 
-//return [ 'Ohhh no', index: 0, input: 'Ohhh no', groups: undefined ]
+//return [ 'Ohhh no' ]
 // true
+
+// Your regex should use curly brackets.
+// Your regex should not match "Ohh no"
+// Your regex should match "Ohhh no"
+// Your regex should match "Ohhhh no"
+// Your regex should match "Ohhhhh no"
+// Your regex should match "Ohhhhhh no"
+// Your regex should not match "Ohhhhhhh no"

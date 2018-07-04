@@ -12,3 +12,11 @@ let haRegex = /z{4,}/; // Change this line
 let result = haRegex.test(haStr);
 
 // return true;
+
+// Your regex should use curly brackets.
+// Your regex should not match "Hazzah"
+// Your regex should not match "Hazzzah"
+// Your regex should match "Hazzzzah"
+// Your regex should match "Hazzzzzah"
+// Your regex should match "Hazzzzzzah"
+// Your regex should match "Hazzah" with 30 z\'s in it.

@@ -23,3 +23,11 @@ let pwRegex = /(?=\w{5,})(?=\D*\d{2})/; // Change this line
 let result = pwRegex.test(sampleWord);
 
 // return false;
+
+// Your regex should use two positive lookaheads.
+// Your regex should not match "astronaut"
+// Your regex should not match "airplanes"
+// Your regex should match "bana12"
+// Your regex should match "abc123"
+// Your regex should not match "123"
+// Your regex should not match "1234"

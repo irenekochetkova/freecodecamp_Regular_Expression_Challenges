@@ -21,4 +21,15 @@ let result = reRegex.test(repeatNum);
 repeatNum.match(reRegex);
 
 // return
-// [ '42 42 42',  '42',  index: 0,  input: '42 42 42',  groups: undefined ]
+// [ '42 42 42' ]
+
+// Your regex should use the shorthand character class for digits.
+// Your regex should reuse the capture group twice.
+// Your regex should have two spaces separating the three numbers.
+// Your regex should match "42 42 42".
+// Your regex should match "100 100 100".
+// Your regex should not match "42 42 42 42".
+// Your regex should not match "42 42".
+// Your regex should not match "101 102 103".
+// Your regex should not match "1 2 3".
+// Your regex should match "10 10 10"

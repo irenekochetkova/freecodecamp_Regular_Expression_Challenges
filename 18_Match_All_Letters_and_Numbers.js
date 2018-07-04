@@ -13,3 +13,8 @@ let alphabetRegexV2 = /\w/g; // Change this line
 let result = quoteSample.match(alphabetRegexV2).length;
 
 // return 31;
+
+// Your regex should find 31 alphanumeric characters in "The five boxing wizards jump quickly."
+// Your regex should find 32 alphanumeric characters in "Pack my box with five dozen liquor jugs."
+// Your regex should find 30 alphanumeric characters in "How vexingly quick daft zebras jump!"
+// Your regex should find 36 alphanumeric characters in "123 456 7890 ABC def GHI jkl MNO pqr STU vwx YZ."

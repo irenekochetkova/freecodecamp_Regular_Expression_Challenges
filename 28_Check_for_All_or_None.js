@@ -12,3 +12,8 @@ let favRegex = /favou?rite/; // Change this line
 let result = favRegex.test(favWord);
 
 // return true;
+
+// Your regex should use the optional symbol, ?.
+// Your regex should match "favorite"
+// Your regex should match "favourite"
+// Your regex should not match "fav"

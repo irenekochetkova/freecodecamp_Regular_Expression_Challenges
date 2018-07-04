@@ -9,7 +9,4 @@ let chewieRegex = /Aa*/; // Change this line
 let result = chewieQuote.match(chewieRegex);
 
 // return 
-// [ 'Aaaaaaaaaaaaaaaa',
-//   index: 0,
-//   input: 'Aaaaaaaaaaaaaaaarrrgh!',
-//   groups: undefined ]
+// [ 'Aaaaaaaaaaaaaaaa']
